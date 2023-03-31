@@ -7,25 +7,23 @@
   </button>
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-export default defineComponent({
-  name: 'RoundedButton',
-  props: {
-    text: {
-      type: String,
-    },
-    color: {
-      type: String,
-    },
-    background: {
-      type: String,
-    },
-    disabled: {
-      type : Boolean,
-    }
+<script setup lang="ts">
+
+defineProps({
+  text: {
+    type: String,
   },
-});
+  color: {
+    type: String,
+  },
+  background: {
+    type: String,
+  },
+  disabled: {
+    type : Boolean,
+  }
+})
+
 </script>
 
 <style scoped>
@@ -46,6 +44,6 @@ button {
 }
 
 button:hover {
-  filter: brightness(120%);
+  filter: brightness(85%);
 }
 </style>

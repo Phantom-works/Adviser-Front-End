@@ -6,15 +6,14 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: 'GameAdviserHeader',
-  props: {
-    text: {
-      type: String,
-    },
-  }
-}
+<script setup lang="ts">
+
+defineProps({
+      text: {
+        type: String,
+      },
+})
+
 </script>
 
 <style scoped>

@@ -2,18 +2,13 @@
 
     <div>
       <GameAdviserHeader
-          text="Game Adviser"
-      />
-
-      <category-list
-      />
+          text="Game Adviser"/>
+      <CategoryList :categories = "categories" />
     </div>
 
   <div>
     <RoundedButton
     text="hello world"
-    background="lightgreen"
-    color="black"
     />
   </div>
 
@@ -24,39 +19,26 @@
 import RoundedButton from "./components/buttons/RoundedButton.vue"
 import GameAdviserHeader from "@/components/GameAdviserHeader.vue";
 import CategoryList from "@/components/category components/CategoryList.vue";
-import ICategory from "@/components/Interfaces/ICategory.vue";
+import type Category from "@/components/Interfaces/Category";
 
-import { defineComponent } from 'vue';
+import {ref} from 'vue';
 
-defineComponent({
-      name: "app",
-      components:{
-        RoundedButton,
-        GameAdviserHeader,
-        CategoryList,
-      },
-      data(){
-        return{
-          categories: ICategory,
-        }
-      },
-      created(){
-        this.categories = [
-          {
-            name: "platformer",
-          },
-          {
-            name: "rougelike"
-          },
-          {
-            name: "puzzle"
-          },
-          {
-            name: "open world"
-          }
-        ]
-      }
-    });
+const categories = ref<Category[]>([{
+      id: 1,
+      title: "sandbox",
+    },
+    {
+      id: 2,
+      title: "roguelike"
+    },
+    {
+      id: 3,
+      title: "puzzle"
+    },
+    {
+      id: 4,
+      title: "open world"
+    }])
 
 </script>
 
