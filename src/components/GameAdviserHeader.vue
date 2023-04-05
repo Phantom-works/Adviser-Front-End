@@ -7,21 +7,18 @@
 </template>
 
 <script setup lang="ts">
-
 defineProps({
-      text: {
-        type: String,
-      },
+  text: {
+    type: String
+  }
 })
-
 </script>
 
 <style scoped>
-  header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: auto;
-  }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: auto;
+}
 </style>
-

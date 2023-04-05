@@ -1,39 +1,33 @@
 <template>
-  <button
-      :style="{ background, color,}"
-      :class="{'disable-button': disabled}"
-  >
+  <button :style="{ background, color }" :class="{ 'disable-button': disabled }">
     {{ text }}
   </button>
 </template>
 
 <script setup lang="ts">
-
 defineProps({
   text: {
-    type: String,
+    type: String
   },
   color: {
-    type: String,
+    type: String
   },
   background: {
-    type: String,
+    type: String
   },
   disabled: {
-    type : Boolean,
+    type: Boolean
   }
 })
-
 </script>
 
 <style scoped>
-
-.disable-button{
+.disable-button {
   opacity: 0.5;
 }
 
 button {
-  background: #4fc08d;
+  background: #3f8b72;
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
@@ -41,6 +35,7 @@ button {
   border: none;
   cursor: pointer;
   transition: all 0.3s ease;
+  margin: 10px;
 }
 
 button:hover {
