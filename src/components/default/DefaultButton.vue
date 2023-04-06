@@ -1,10 +1,10 @@
 <template>
-  <button :style="{ background, color }" :class="{ 'disable-button': disabled }">
+  <button :class="{ 'disable-button': disabled }" :style="{ background, color }">
     {{ text }}
   </button>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 defineProps({
   text: {
     type: String
@@ -27,15 +27,14 @@ defineProps({
 }
 
 button {
-  background: #3f8b72;
-  color: #fff;
-  border-radius: 20px;
-  padding: 10px 20px;
-  font-size: 1rem;
+  background-color: #3f8b72;
   border: none;
+  border-radius: 10px;
+  color: #fff;
   cursor: pointer;
-  transition: all 0.3s ease;
-  margin: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+  margin-left: 10px;
 }
 
 button:hover {

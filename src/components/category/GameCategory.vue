@@ -1,9 +1,6 @@
 <template>
   <div class="gameCategory">
-    <h3>
-      {{ category.title }}
-      <i class="fa-solid fa-x" @click="OnDelete(category.id)"></i>
-    </h3>
+    <h3>{{ category.title }} <i class="fa-solid fa-x" @click="OnDelete(category.id)"></i></h3>
   </div>
 </template>
 
@@ -13,8 +10,8 @@ import Category from '@/BLL/Category'
 defineProps<{ category: Category }>()
 
 const emit = defineEmits(['DeleteCategory'])
-const OnDelete = (_id: number) => {
-  emit("DeleteCategory", _id)
+function OnDelete (_id: number) {
+  emit('DeleteCategory', _id)
 }
 </script>
 
@@ -35,12 +32,6 @@ const OnDelete = (_id: number) => {
   transition: all 0.3s ease;
   margin: 10px;
   position: relative;
-}
-
-.gameCategory h3 i {
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
+  display: inline-block;
 }
 </style>
