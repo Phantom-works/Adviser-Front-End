@@ -7,7 +7,7 @@
 
 <script lang="ts" setup>
 import CategoryList from '@/components/category/GameCategoryList.vue'
-import type Category from '@/BLL/Category'
+import type Category from '@/Model/Category'
 
 import { ref } from 'vue'
 import CategoryInputField from '@/components/category/CategoryInputField.vue'
