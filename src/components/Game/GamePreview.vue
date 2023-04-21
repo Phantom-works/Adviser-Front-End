@@ -1,6 +1,6 @@
 <template>
   <div class="game-preview">
-    <img :src="game.imageURL" alt="Game Cover" class="game-image"/>
+    <img :alt="game.title" :src="game.imageURL" class="game-image"/>
   </div>
 </template>
 
@@ -13,14 +13,20 @@ defineProps<{ game: Game }>()
 <style scoped>
 .game-preview {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+  align-items: self-start;
   justify-content: center;
   width: 200px;
   height: 300px;
-  margin: 10px;
+  border-radius: 10px;
+  margin: 0 1rem 1rem;
+}
+
+.game-image {
+  object-fit: cover; /* add object-fit */
+  width: 100%; /* adjust width */
+  height: 100%; /* adjust height */
   border-radius: 10px; /* add border-radius */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 </style>
 

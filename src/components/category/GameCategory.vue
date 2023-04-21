@@ -26,10 +26,9 @@ function OnDelete (_id: number) {
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
   margin: 10px;
   position: relative;
   display: inline-block;

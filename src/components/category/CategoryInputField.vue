@@ -1,7 +1,7 @@
 <template>
   <div class="input-container">
-    <input v-model="text" class="rounded-input" placeholder="Enter text here" type="text" />
-    <DefaultButton text="+" @click="AddCategory" />
+      <input v-model="text" class="rounded-input" placeholder="Enter text here" type="text" />
+      <DefaultButton class="button" text="+" @click="AddCategory"/>
   </div>
 </template>
 
@@ -25,6 +25,9 @@ function AddCategory() {
 <style scoped>
 .input-container {
   display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  width: 100%;
 }
 
 .rounded-input {
@@ -32,8 +35,12 @@ function AddCategory() {
   border: none;
   border-radius: 10px;
   color: #fff;
-  font-size: 16px;
-  padding: 10px 20px;
+  font-size: 1.5rem;
+  padding: 1rem;
   flex: 1;
+}
+
+.button{
+  font-size: x-large;
 }
 </style>

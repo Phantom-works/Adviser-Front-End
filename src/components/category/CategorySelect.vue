@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <category-input-field @AddCategory="AddCategory" />
+  <div class="categories-container">
+    <category-input-field @AddCategory="AddCategory"/>
     <CategoryList :categories="categories" @DeleteCategory="DeleteCategory" />
   </div>
 </template>
@@ -28,5 +28,9 @@ let categories = ref<Category[]>([
 ])
 </script>
 
-<style scoped></style>
+<style scoped>
+.categories-container{
+  width: 100%;
+}
+</style>
 
