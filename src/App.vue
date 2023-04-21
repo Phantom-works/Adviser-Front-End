@@ -68,6 +68,6 @@ let games = ref<Game[]>([
 .game-container{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: stretch;
 }
 </style>
