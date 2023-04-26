@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 import Category from '../../../Model/Category'
 import CategorySelect from '../CategorySelect.vue'
-describe('CategoryList Snapshots', () => {
+describe('CategorySelect Snapshots', () => {
   // Arrange
 
   it('Snapshot text empty 3 categories', () => {
