@@ -6,7 +6,7 @@
 
 <script lang="ts" setup>
 import type Category from '@/Model/Category'
-import CoCategory from '@/components/category/GameCategory.vue'
+import CoCategory from '@/components/category/CategoryBubble.vue'
 
 defineProps<{ categories: Category[] }>()
 
