@@ -6,7 +6,7 @@
 </template>
 
 <script lang="ts" setup>
-import CategoryList from '@/components/category/GameCategoryList.vue'
+import CategoryList from '@/components/category/CategoryList.vue'
 import type Category from '@/Model/Category'
 
 import { ref } from 'vue'

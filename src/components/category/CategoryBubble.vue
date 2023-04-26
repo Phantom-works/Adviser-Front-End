@@ -1,5 +1,5 @@
 <template>
-  <div class="gameCategory">
+  <div class="Bubble">
     <h3>{{ category.title }} <i class="fa-solid fa-x" @click="OnDelete(category.id)"></i></h3>
   </div>
 </template>
@@ -21,7 +21,7 @@ function OnDelete (_id: number) {
   filter: brightness(40%);
 }
 
-.gameCategory {
+.Bubble {
   background: #3f8b72;
   color: #fff;
   border-radius: 20px;
