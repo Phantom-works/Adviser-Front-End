@@ -1,0 +1,113 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GamePreviewList Snapshots > Snapshot 3 Games Factorio 1`] = `
+"<div data-v-cc4cce50=\\"\\" class=\\"game-list\\">
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+</div>"
+`;
+
+exports[`GamePreviewList Snapshots > Snapshot 3 Games empty 1`] = `
+"<div data-v-cc4cce50=\\"\\" class=\\"game-list\\">
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+</div>"
+`;
+
+exports[`GamePreviewList Snapshots > Snapshot 12 Games empty 1`] = `
+"<div data-v-cc4cce50=\\"\\" class=\\"game-list\\">
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+</div>"
+`;
+
+exports[`GamePreviewList Snapshots > Snapshot 12 Games factorio 1`] = `
+"<div data-v-cc4cce50=\\"\\" class=\\"game-list\\">
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+  <div data-v-cc4cce50=\\"\\">
+    <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>
+  </div>
+</div>"
+`;
+
+exports[`GamePreviewList Snapshots > Snapshot Empty List 1`] = `"<div data-v-cc4cce50=\\"\\" class=\\"game-list\\"></div>"`;

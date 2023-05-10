@@ -5,8 +5,8 @@
 </template>
 
 <script lang="ts" setup>
-import type Category from '@/BLL/Category'
-import CoCategory from '@/components/category/GameCategory.vue'
+import type Category from '@/Model/Category'
+import CoCategory from '@/components/category/CategoryBubble.vue'
 
 defineProps<{ categories: Category[] }>()
 
@@ -18,6 +18,6 @@ function DeleteCategory (_id: number) {
 
 <style scoped>
 .categories-container {
-  display: inline-block; /* or display: inline-flex; */
+  display: inline-block;
 }
 </style>

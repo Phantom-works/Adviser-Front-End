@@ -1,13 +1,13 @@
 <template>
-  <div>
-    <category-input-field @AddCategory="AddCategory" />
+  <div class="categories-container">
+    <category-input-field @AddCategory="AddCategory"/>
     <CategoryList :categories="categories" @DeleteCategory="DeleteCategory" />
   </div>
 </template>
 
 <script lang="ts" setup>
-import CategoryList from '@/components/category/GameCategoryList.vue'
-import type Category from '@/BLL/Category'
+import CategoryList from '@/components/category/CategoryList.vue'
+import type Category from '@/Model/Category'
 
 import { ref } from 'vue'
 import CategoryInputField from '@/components/category/CategoryInputField.vue'
@@ -28,5 +28,9 @@ let categories = ref<Category[]>([
 ])
 </script>
 
-<style scoped></style>
+<style scoped>
+.categories-container{
+  width: 100%;
+}
+</style>
 
