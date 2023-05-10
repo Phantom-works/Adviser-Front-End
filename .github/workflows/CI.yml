@@ -32,4 +32,6 @@ jobs:
         
     - run: npm ci
     
+    - run: vite build
+    
     - run: npm run test:unit
