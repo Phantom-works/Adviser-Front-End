@@ -6,12 +6,10 @@ name: Node.js CI
 on:
   push:
     branches: 
-    - "main" 
-    - "dev"
+    - "main"
   pull_request:
     branches: 
     - "main" 
-    - "dev"
 
 jobs:
   build:
@@ -33,7 +31,5 @@ jobs:
         cache: 'npm'
         
     - run: npm ci
-    
-    - run: vite build
     
     - run: npm run test:unit
