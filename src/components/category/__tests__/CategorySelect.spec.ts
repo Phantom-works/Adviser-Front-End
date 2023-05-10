@@ -1,13 +1,14 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
-import Category from '../../../Model/Category'
+import type Category from '../../../Model/Category'
 import CategorySelect from '../CategorySelect.vue'
-describe('CategorySelect Snapshots', () => {
+import { ref } from 'vue'
+describe('CategorySelect Snapshot tests', () => {
   // Arrange
 
-  it('Snapshot text empty 3 categories', () => {
+  it('Snapshot Empty List', () => {
     //Arrange
-    const categories = [new Category(1, ''), new Category(2, ''), new Category(3, '')]
+    const categories = ref<Category[]>([])
 
     // Act
     const wrapper = mount(CategorySelect, {
@@ -18,48 +19,80 @@ describe('CategorySelect Snapshots', () => {
     // Assert
     expect(wrapper.html()).toMatchSnapshot()
   })
+})
 
-  it('Snapshot text long 5 categoeries', () => {
-    //Arrange
-    const categories = [
-      new Category(1, 'Category 1rmyumednthsbrg'),
-      new Category(2, 'Category 2muenytwhsrgbavm4eunwty'),
-      new Category(3, 'Category 3muerynthbrwsegahnjuermjtywsrhbaegvFWED'),
-      new Category(1, 'Category 1entyawrtegTHJWKE6U8JYHWRrgat6ysj7iksrthaergwefrghatES6UJ'),
-      new Category(2, 'Category 2KEJYHRTAEGFWDMUJNTYHRGB')
-    ]
+describe('CategorySelect Component tests', () => {
+  // Arrange
 
-    // Act
+  it('AddCategory No Category inputted, amount 0', async () => {
+    // Arrange
+    // Negate jest from giving error when window.alert is called
+
+    window.alert = () => {}
+
+    const categories = ref<Category[]>([])
+
     const wrapper = mount(CategorySelect, {
       props: {
         categories: categories
       }
     })
+
+    // Act
+
+    const button = wrapper.find('button')
+    await button.trigger('click.left')
+
     // Assert
-    expect(wrapper.html()).toMatchSnapshot()
+    expect(wrapper.vm.categories).toHaveLength(0)
   })
 
-  it('Snapshot 9 categories differentiating text length', () => {
-    //Arrange
-    const categories = [
-      new Category(1, 'CategoRUEYJTWRHGQEYJEYHNTRAGEVry 1'),
-      new Category(2, 'Category 2'),
-      new Category(3, 'ry 3'),
-      new Category(1, 'CategoEYHTWRAGEfaqathbwyjnhtarqEGry 1'),
-      new Category(2, 'Category 2'),
-      new Category(3, 'CatHWTGQRTH6WGQREgthwtgaqreegory 3'),
-      new Category(1, 'Categ4HJY7YH5WT6G4R5WHJ5YWTGRQEFGTHYJW5TGRQE4HWory 1'),
-      new Category(2, 'Catego'),
-      new Category(3, 'Cat')
-    ]
+  it('AddCategory Category, input: title = Test, amount = 1', async () => {
+    // Arrange
+    const categories = ref<Category[]>([])
 
-    // Act
     const wrapper = mount(CategorySelect, {
       props: {
         categories: categories
       }
     })
+
+    // Act
+
+    const button = wrapper.find('button')
+    const input = wrapper.find('input')
+    await input.setValue('Test')
+    await button.trigger('click.left')
+
     // Assert
-    expect(wrapper.html()).toMatchSnapshot()
+    expect(wrapper.vm.categories).toHaveLength(1)
+    expect(wrapper.vm.categories[0].id).toBe(1)
+    expect(wrapper.vm.categories[0].title).toBe('Test')
+  })
+
+  it('Add and remove Category, Value: id = 1, title = Test', async () => {
+    // Arrange
+
+    const categories = ref<Category[]>([])
+
+    const wrapper = mount(CategorySelect, {
+      props: {
+        categories: categories
+      }
+    })
+
+    // Act
+    // Add
+    const button = wrapper.find('button')
+    const input = wrapper.find('input')
+    await input.setValue('Test')
+    await button.trigger('click.left')
+
+    // Remove
+    const xMark = wrapper.find('i')
+    await xMark.trigger('click.left')
+
+    // Assert
+    expect(wrapper.vm.categories).toHaveLength(0)
   })
 })
