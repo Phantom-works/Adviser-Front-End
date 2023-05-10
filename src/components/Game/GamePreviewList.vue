@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import Game from '@/Model/Game'
+import type Game from '@/Model/Game'
 import GamePreview from "@/components/Game/GamePreview.vue";
 
 defineProps<{ games: Game[] }>()

@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import Game from '@/Model/Game'
+import type Game from '@/Model/Game'
 
 defineProps<{ game: Game }>()
 </script>

@@ -1,0 +1,30 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Snapshots > Snapshot App Default 1`] = `
+"<div data-v-7a7a37b1=\\"\\" class=\\"game-container\\">
+  <div data-v-7a7a37b1=\\"\\">
+    <div data-v-8d32426d=\\"\\" data-v-7a7a37b1=\\"\\" class=\\"categories-container\\">
+      <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+    </div>
+  </div>
+  <div data-v-7a7a37b1=\\"\\">
+    <div data-v-cc4cce50=\\"\\" data-v-7a7a37b1=\\"\\" class=\\"game-list\\">
+      <div data-v-cc4cce50=\\"\\">
+        <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"The Legend of Zelda: Breath of the Wild\\" src=\\"https://upload.wikimedia.org/wikipedia/en/thumb/c/c6/The_Legend_of_Zelda_Breath_of_the_Wild.jpg/220px-The_Legend_of_Zelda_Breath_of_the_Wild.jpg\\" class=\\"game-image\\"></div>
+      </div>
+      <div data-v-cc4cce50=\\"\\">
+        <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"Super Mario Odyssey\\" src=\\"https://gaming-cdn.com/images/products/2618/orig-fallback-v1/super-mario-odyssey-switch-switch-spel-nintendo-eshop-europe-cover.jpg?v=1649857014\\" class=\\"game-image\\"></div>
+      </div>
+      <div data-v-cc4cce50=\\"\\">
+        <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"Red Dead Redemption 2\\" src=\\"https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png\\" class=\\"game-image\\"></div>
+      </div>
+      <div data-v-cc4cce50=\\"\\">
+        <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"The Last of Us Part II\\" src=\\"https://gaming-cdn.com/images/products/2561/orig-fallback-v1/the-last-of-us-part-ii-ps4-ps5-action-spel-naughty-dog-cover.jpg?v=1649858966\\" class=\\"game-image\\"></div>
+      </div>
+      <div data-v-cc4cce50=\\"\\">
+        <div data-v-023eec1f=\\"\\" data-v-cc4cce50=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"Hades\\" src=\\"https://cdn.mobygames.com/covers/10377246-hades-windows-apps-front-cover.jpg\\" class=\\"game-image\\"></div>
+      </div>
+    </div>
+  </div>
+</div>"
+`;

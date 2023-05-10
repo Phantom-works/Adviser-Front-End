@@ -5,7 +5,7 @@
 </template>
 
 <script lang="ts" setup>
-import Category from '@/Model/Category'
+import type Category from '@/Model/Category'
 
 defineProps<{ category: Category }>()
 

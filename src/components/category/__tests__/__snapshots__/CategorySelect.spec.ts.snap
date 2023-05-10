@@ -1,0 +1,49 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoryList Snapshots > Snapshot 9 categories differentiating text length 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategoryList Snapshots > Snapshot text empty 3 categories 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategoryList Snapshots > Snapshot text long 5 categoeries 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategorySelect Snapshot tests > Snapshot Empty List 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategorySelect Snapshots > Snapshot 9 categories differentiating text length 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategorySelect Snapshots > Snapshot empty list 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategorySelect Snapshots > Snapshot text empty 3 categories 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;
+
+exports[`CategorySelect Snapshots > Snapshot text long 5 categoeries 1`] = `
+"<div data-v-8d32426d=\\"\\" class=\\"categories-container\\" categories=\\"[object Object],[object Object],[object Object],[object Object],[object Object]\\">
+  <div data-v-15dafa4e=\\"\\" data-v-8d32426d=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>
+</div>"
+`;

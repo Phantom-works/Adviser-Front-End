@@ -1,0 +1,99 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoryList Snapshots > Snapshot 9 categories differentiating text length 1`] = `
+"<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">CategoRUEYJTWRHGQEYJEYHNTRAGEVry 1 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 2 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">ry 3 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">CategoEYHTWRAGEfaqathbwyjnhtarqEGry 1 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 2 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">CatHWTGQRTH6WGQREgthwtgaqreegory 3 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Categ4HJY7YH5WT6G4R5WHJ5YWTGRQEFGTHYJW5TGRQE4HWory 1 <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Catego <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Cat <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>"
+`;
+
+exports[`CategoryList Snapshots > Snapshot Empty List 1`] = `""`;
+
+exports[`CategoryList Snapshots > Snapshot no categories 1`] = `""`;
+
+exports[`CategoryList Snapshots > Snapshot text empty 3 categories 1`] = `
+"<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\"> <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\"> <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\"> <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>"
+`;
+
+exports[`CategoryList Snapshots > Snapshot text long 5 categoeries 1`] = `
+"<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 1rmyumednthsbrg <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 2muenytwhsrgbavm4eunwty <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 3muerynthbrwsegahnjuermjtywsrhbaegvFWED <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 1entyawrtegTHJWKE6U8JYHWRrgat6ysj7iksrthaergwefrghatES6UJ <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>
+<div data-v-43684615=\\"\\" class=\\"categories-container\\">
+  <div data-v-577a7027=\\"\\" data-v-43684615=\\"\\" class=\\"Bubble\\">
+    <h3 data-v-577a7027=\\"\\">Category 2KEJYHRTAEGFWDMUJNTYHRGB <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+  </div>
+</div>"
+`;
