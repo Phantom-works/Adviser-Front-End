@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DefaultButton Snapshots > Snapshot disable false  1`] = `"<button data-v-dec1f997=\\"\\" class=\\"\\"></button>"`;
+
+exports[`DefaultButton Snapshots > Snapshot disable true  1`] = `"<button data-v-dec1f997=\\"\\" class=\\"disable-button\\"></button>"`;
+
+exports[`DefaultButton Snapshots > Snapshot text empty  1`] = `"<button data-v-dec1f997=\\"\\" class=\\"\\"></button>"`;
+
+exports[`DefaultButton Snapshots > Snapshot text long  1`] = `"<button data-v-dec1f997=\\"\\" class=\\"\\">garyhdjfiqhbfy8djfiqnd89hxioboqsid</button>"`;
+
+exports[`DefaultButton Snapshots > Snapshot text small  1`] = `"<button data-v-dec1f997=\\"\\" class=\\"\\">ha0s</button>"`;

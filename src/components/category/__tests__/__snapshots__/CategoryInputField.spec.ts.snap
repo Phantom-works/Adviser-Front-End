@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoryInputField Snapshots > Snapshot InputDefault 1`] = `"<div data-v-15dafa4e=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>"`;
+
+exports[`CategoryInputField Snapshots > Snapshot text empty  1`] = `"<div data-v-15dafa4e=\\"\\" class=\\"input-container\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>"`;
+
+exports[`CategoryInputField Snapshots > Snapshot text empty  2`] = `"<div data-v-15dafa4e=\\"\\" class=\\"input-container\\" text=\\"uid\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>"`;
+
+exports[`CategoryInputField Snapshots > Snapshot text long  1`] = `"<div data-v-15dafa4e=\\"\\" class=\\"input-container\\" text=\\"grayhujdsidfhqhj09fbaspuidn\\"><input data-v-15dafa4e=\\"\\" class=\\"rounded-input\\" placeholder=\\"Enter text here\\" type=\\"text\\"><button data-v-dec1f997=\\"\\" data-v-15dafa4e=\\"\\" class=\\"button\\">+</button></div>"`;

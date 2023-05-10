@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`GamePreview Snapshots > Snapshot Empty Game 1`] = `"<div data-v-023eec1f=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" class=\\"game-image\\"></div>"`;
+
+exports[`GamePreview Snapshots > Snapshot Game empty 1`] = `"<div data-v-023eec1f=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"\\" src=\\"\\" class=\\"game-image\\"></div>"`;
+
+exports[`GamePreview Snapshots > Snapshot Game factorio 1`] = `"<div data-v-023eec1f=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"factorio\\" src=\\"cool factorio image\\" class=\\"game-image\\"></div>"`;
+
+exports[`GamePreview Snapshots > Snapshot Game long title 1`] = `"<div data-v-023eec1f=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"3A45ST6JYDK6U4TAW4RES5T6JDYK7E4YRAUS5TI6DR4YEU5SRTID6Y\\" src=\\"\\" class=\\"game-image\\"></div>"`;
+
+exports[`GamePreview Snapshots > Snapshot no game 1`] = `"<div data-v-023eec1f=\\"\\" class=\\"game-preview\\"><img data-v-023eec1f=\\"\\" alt=\\"factorio\\" src=\\"cool factorio image\\" class=\\"game-image\\"></div>"`;

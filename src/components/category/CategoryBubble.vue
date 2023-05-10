@@ -1,11 +1,11 @@
 <template>
-  <div class="gameCategory">
+  <div class="Bubble">
     <h3>{{ category.title }} <i class="fa-solid fa-x" @click="OnDelete(category.id)"></i></h3>
   </div>
 </template>
 
 <script lang="ts" setup>
-import Category from '@/BLL/Category'
+import type Category from '@/Model/Category'
 
 defineProps<{ category: Category }>()
 
@@ -21,15 +21,14 @@ function OnDelete (_id: number) {
   filter: brightness(40%);
 }
 
-.gameCategory {
+.Bubble {
   background: #3f8b72;
   color: #fff;
   border-radius: 20px;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border: none;
   cursor: pointer;
-  transition: all 0.3s ease;
   margin: 10px;
   position: relative;
   display: inline-block;

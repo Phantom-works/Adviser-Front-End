@@ -1,0 +1,25 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CategoryBubble Snapshots > Snapshot Bubble Default 1`] = `
+"<div data-v-577a7027=\\"\\" class=\\"Bubble\\">
+  <h3 data-v-577a7027=\\"\\"> <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+</div>"
+`;
+
+exports[`CategoryBubble Snapshots > Snapshot text empty  1`] = `
+"<div data-v-577a7027=\\"\\" class=\\"Bubble\\">
+  <h3 data-v-577a7027=\\"\\"> <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+</div>"
+`;
+
+exports[`CategoryBubble Snapshots > Snapshot text long  1`] = `
+"<div data-v-577a7027=\\"\\" class=\\"Bubble\\">
+  <h3 data-v-577a7027=\\"\\">zerdy8y;ljsdrty88;reasdrty;yaetjsdl <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+</div>"
+`;
+
+exports[`CategoryBubble Snapshots > Snapshot text small  1`] = `
+"<div data-v-577a7027=\\"\\" class=\\"Bubble\\">
+  <h3 data-v-577a7027=\\"\\">hallo <i data-v-577a7027=\\"\\" class=\\"fa-solid fa-x\\"></i></h3>
+</div>"
+`;
