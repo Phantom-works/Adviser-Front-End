@@ -1,6 +1,6 @@
 # This workflow will do a clean installation of node dependencies, cache/restore them, run tests on node 16.x
 
-name: Front-End CI CD
+name: Main CI CD
 
 on:
   push:
