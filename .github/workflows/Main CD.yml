@@ -1,16 +1,14 @@
 name: Main CD
 
+# Runs CD every week on tuesday 2AM
 on:
   schedule:
     - cron: '0 2 * * 2'
- 
- 
 
 jobs:
-
-  
   publish:
     
+    # Check if main updated in the last 7 days
     if: ${{ github.event_name == 'schedule' && github.ref == 'refs/heads/main' && github.event.schedule }} && ${{ (github.event.repository.pushed_at | fromjson | strftime('%s') | int) > (now() - 604800 | int) }}
     
     runs-on: ubuntu-latest
