@@ -3,11 +3,24 @@ name: Main CD
 on:
   schedule:
     - cron: '0 2 * * 2'
+ 
+ 
 
 jobs:
+
+  
   publish:
+    
+    if: ${{ github.event_name == 'schedule' && github.ref == 'refs/heads/main' && github.event.schedule }} && ${{ (github.event.repository.pushed_at | fromjson | strftime('%s') | int) > (now() - 604800 | int) }}
+    
     runs-on: ubuntu-latest
     steps:
+    
+      - name: Checkout main branch
+        uses: actions/checkout@v2  
+        with: 
+          ref: main
+
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
         
