@@ -30,7 +30,7 @@ jobs:
           currentDate=$(date +%Y-%m-%d)
           sevenDaysAgo=$(date -d "$currentDate - 7 days" +%Y-%m-%d)
           if [[ $lastCommitDate > $sevenDaysAgo ]]; then
-            echo "::set-output name=updated::true"
+            echo "::set-output name=updated::false"
           else
             echo "::set-output name=updated::false"
           fi
