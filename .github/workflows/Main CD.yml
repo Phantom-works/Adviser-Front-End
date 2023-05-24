@@ -2,6 +2,7 @@ name: Main CD
 
 # Runs CD every week on tuesday 2AM
 on:
+  workflow_dispatch:
   schedule:
     - cron: '0 2 * * 2'
 
