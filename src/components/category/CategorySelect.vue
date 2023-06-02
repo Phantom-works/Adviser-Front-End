@@ -11,8 +11,11 @@ import type Category from '@/Model/Category'
 
 import { ref } from 'vue'
 import CategoryInputField from '@/components/category/CategoryInputField.vue'
+const emit = defineEmits(['SetGames'])
 function DeleteCategory(_id: number) {
   categories.value = categories.value.filter((category) => category.id !== _id)
+
+  emit("SetGames", categories.value)
 }
 
 function AddCategory(_title: string) {
@@ -22,6 +25,8 @@ function AddCategory(_title: string) {
   })
 
   categories.value.push(category.value)
+
+  emit("SetGames", categories.value)
 }
 
 let categories = ref<Category[]>([
