@@ -10,12 +10,12 @@
 </template>
 
 <script lang="ts" setup>
-import Game from '@/Model/Game'
+import type Game from '@/Model/Game'
 import { ref } from 'vue'
 import CategorySelect from '@/components/category/CategorySelect.vue'
 import GamePreviewList from '@/components/Game/GamePreviewList.vue'
 import GameService from '@/Service/GameService'
-import Category from '@/Model/Category'
+import type Category from '@/Model/Category'
 let games = ref<Game[]>([])
 
 async function SetGames(_categories: Category[]) {
