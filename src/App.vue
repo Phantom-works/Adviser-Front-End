@@ -17,10 +17,11 @@ import GamePreviewList from '@/components/Game/GamePreviewList.vue'
 import GameService from '@/Service/GameService'
 import type Category from '@/Model/Category'
 let games = ref<Game[]>([])
+let quantity = ref(5);
 
-async function SetGames(_categories: Category[]) {
-  console.log(_categories)
-  games.value = await GameService.FetchGames(_categories)
+async function SetGames(_categories: Category[], quantity: number) {
+  console.log(_categories, quantity)
+  games.value = await GameService.FetchGames(_categories, quantity)
 }
 </script>
 

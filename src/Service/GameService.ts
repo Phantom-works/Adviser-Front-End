@@ -3,15 +3,16 @@ import type Game from '@//Model/Game'
 import type Category from '@/Model/Category'
 
 export default {
-  FetchGames: function (_categories: Category[]): Promise<Game[]> {
+  FetchGames: function (_categories: Category[], quantity: number): Promise<Game[]> {
     let games: Game[] = []
 
     const categoryTitles: string[] = _categories.map((_categories) => _categories.title)
-    const data = { genres: categoryTitles }
+    const data = { genres: categoryTitles, quantity: quantity }
 
     return API()
       .post('/Games', data)
       .then((response) => {
+          console.log(data);
         games = response.data.map((game: { id: any; name: any; cover: { url: any } }) => {
           console.log(game)
 
